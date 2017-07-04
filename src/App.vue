@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   
-    <img src="./assets/Site-Icon.png" width="10%" height="10%">
+    <img src="https://reyeox.github.io/reroom-music/dist/Site-Icon.png" width="10%" height="10%">
     <h1></h1>
     <h2>ReRoom Music</h2>
     <select v-model="selectedCountry"><option v-for="contry in countries" v-bind:value="contry.value">{{contry.name}}</option></select>
